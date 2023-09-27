@@ -3,6 +3,22 @@
   src: url(../fonts/Norse-Bold.otf);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 .body {
   margin: 0;
   padding: 0;
@@ -24,19 +40,32 @@
 }
 
 .right {
-  background: #455d7a;
   display: flex;
   flex-direction: column;
+  background-color: #233142;
+  width: 65vw;
 }
 
 .first {
-  height: 40vh;
+  height: 33vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  color: #e3e3e3;
 }
 
 .second {
-  height: 30vh;
+  background-color: #455d7a;
+  height: 33vh;
+}
+
+.form-main-div {
+  display: flex;
+  flex-direction: row;
 }
 
 .third {
-  height: 30vh;
+  height: 33vh;
 }
