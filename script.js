@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let error = document.querySelector("#error");
 
-  if (password == confirmPassword) {
+  if (password == "" && confirmPassword == "") {
+    error.innerHTML = "* Passwords do not match";
+  } else if (password === confirmPassword) {
     error.innerHTML = "";
   }
   console.log("loaded");

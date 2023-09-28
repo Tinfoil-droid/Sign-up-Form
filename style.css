@@ -8,11 +8,6 @@
   padding: 0;
 }
 
-html {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
 .body {
   margin: 0;
   padding: 0;
@@ -61,8 +56,9 @@ html {
 .form-main-div {
   display: flex;
   flex-direction: row;
-  margin-left: 50px;
-  width: 60%;
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 80%;
   justify-content: space-between;
 }
 
@@ -84,14 +80,41 @@ input :focus {
 }
 
 input:invalid {
-  border: 1px solid red;
+  border: 1px solid #f95959;
+}
+
+#error {
+  color: #f95959;
+  font-size: 15px;
 }
 
 label {
-  font-size: 10px;
-  color: #555555;
+  font-size: 15px;
+  color: #e5e7eb;
+}
+
+.btn-green {
+  background-color: #42b883;
+  color: #e5e7eb;
+  border: 1px solid #42b883;
+  border-radius: 5px;
+  height: 40px;
+  width: 175px;
+  font-weight: bolder;
 }
 
 .third {
   height: 33vh;
+  margin: 5%;
+}
+
+.link {
+  margin-top: 15px;
+  color: #e5e7eb;
+}
+
+a {
+  color: #42b883;
+  text-decoration: none;
+  font-weight: bold;
 }
