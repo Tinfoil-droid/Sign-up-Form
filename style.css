@@ -133,7 +133,7 @@ p {
 }
 
 .footer {
-  height: 60vh;
+  height: 70vh;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -156,4 +156,5 @@ p {
   background: rgba(0, 0, 0, 0.6);
   font-family: Norse-Bold, sans-serif;
   font-size: 35px;
+  padding: 10px;
 }
